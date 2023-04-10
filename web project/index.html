@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Iconic - Choose luxurious</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">The Iconic</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Luxury Handbags</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://eu.louisvuitton.com/eng-e1/homepage">Louis Vuitton</a></li>
+              <li><a class="dropdown-item" href="https://www.dior.com/en_int/fashion">Dior</a></li>
+              <li><a class="dropdown-item" href="https://www.ysl.com/en-en">Saint Laurent</a></li>
+              <li><a class="dropdown-item" href="https://www.bottegaveneta.com/en-en">Bottega Veneta</a></li>
+              <li><a class="dropdown-item" href="https://www.chanel.com/us/">Chanel</a></li>
+              <li><a class="dropdown-item" href="https://www.gucci.com/us/en/">Gucci</a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Contact Us</a>
+          </li>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+        <div class="mx-2">
+          <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button>
+          <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#SignUpModal">SignUp</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- login Modal -->
+  <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="LoginModalLabel">Login Account</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- signUp Modal -->
+  <div class="modal fade" id="SignUpModal" tabindex="-1" aria-labelledby="SignUpModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="SignUpModalLabel">Create an Account</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="cexampleInputPassword1" class="form-label">Confirm Password</label>
+              <input type="password" class="form-control" id="cexampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Create Account</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="1.jpg" class="d-block w-100" alt="..." height="450">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Welcome to The Iconic!</h5>
+          <p>Handbags, Fashion News and Trends</p>
+          <a href="https://www.whowhatwear.com/section/handbags" class="btn btn-danger" tabindex="-1" role="button">New
+            Trends</a>
+          <a href="https://indianexpress.com/section/lifestyle/fashion/" class="btn btn-primary" tabindex="-1"
+            role="button">Fashion News</a>
+          <a href="https://www.shoppersstop.com/women-bags-wallets-handbags/c-A202510" class="btn btn-success"
+            tabindex="-1" role="button">Latest Collection</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="2.jpg" class="d-block w-100" alt="..." height="450">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Fashion Week blogs</h5>
+          <p>know the Fashion Industry</p>
+          <a href="https://www.purseblog.com/real-talk/" class="btn btn-danger" tabindex="-1" role="button">Real
+            Talk</a>
+          <a href="https://www.purseblog.com/closet-confessionals/" class="btn btn-primary" tabindex="-1"
+            role="button">Closet Confessionals</a>
+          <a href="https://www.purseblog.com/fashionweek/" class="btn btn-success" tabindex="-1" role="button">Fashion
+            Week</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="3.jpg" class="d-block w-100" alt="..." height="450">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>All you need to Know!</h5>
+          <p>luxurious Brands</p>
+          <a href="https://www.purseblog.com/guides/" class="btn btn-danger" tabindex="-1" role="button">Guides</a>
+          <a href="https://www.purseblog.com/opinion/" class="btn btn-primary" tabindex="-1" role="button">OPINION</a>
+          <a href="https://www.purseblog.com/bag-deals/" class="btn btn-success" tabindex="-1" role="button">Bag
+            Deals</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container my-4">
+    <div class="row mb-2">
+
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">World</strong>
+            <h3 class="mb-0">Three Handbag Trends That Ruled the Fall 2023 Runways</h3>
+            <div class="mb-1 text-muted">Feb 26</div>
+            <p class="card-text mb-auto">It's been a long few weeks for the fashion set,but fashion month has finally
+              ended.Throughout the last month,we've covered all of the comings and goings that come along with fashion
+              month, from the street style bags of New York, London from brands Milan.</p>
+            <a href="https://www.purseblog.com/trends/three-handbag-trends-that-ruled-the-fall-2023-runways/"
+              class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="thumb.1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Fashion Week</strong>
+            <h3 class="mb-0">Which Fashion Week Has the Hottest Handbag Game?</h3>
+            <div class="mb-1 text-muted">Feb 12</div>
+            <p class="mb-auto">Let's be honest.Fashion weeks have become as much about the street style of chic
+              attendees as the designs appearing on the runway.While new collection displays increasingly feature
+              extravagant stunts the garb worn by fashion insiders watching the show.</p>
+            <a href="https://www.purseblog.com/opinion/which-fashion-week-has-the-hottest-handbag-game/"
+              class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="thumb.2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-2">
+
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-warning">Guides</strong>
+            <h3 class="mb-0">The Ultimate Spring/Summer 2023 Bag Guide</h3>
+            <div class="mb-1 text-muted">Mar 15</div>
+            <p class="card-text mb-auto">While it is still cold in many parts of the country, New York included, the
+              arrival of March signals that spring is, in fact, on the horizon. For many of us, this also means taking a
+              look at our wardrobes and doing a little spring cleaning to make room for some new pieces.</p>
+            <a href="https://www.purseblog.com/guides/the-ultimate-spring-summer-2023-bag-guide/"
+              class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="thumb.3.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-danger">Celebrities</strong>
+            <h3 class="mb-0">Stars carry latest collections as March Forges On</h3>
+            <div class="mb-1 text-muted">Mar 14 </div>
+            <p class="mb-auto">I don't know about you, but I get serious spring fever once March hits. Celebs are
+              forging on through March, waiting for spring and begrudgingly getting a few more uses out of their best
+              outerwear. Dua Lipa opted for a sleek, long coat, while Michelle Yeoh showed off a cropped fur-trimmed
+              jacket. </p>
+            <a href="https://www.purseblog.com/celebrities/stars-carry-the-latest-from-bottega-veneta-miu-miu-and-more-as-march-forges-on/"
+              class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="thumb.4.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ... -->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-5 my-4 border-top">
+      <p class="col-md-4 mb-0 text-body-secondary">© 2023 The Iconic, Inc</p>
+
+      <a href="/"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="/"></use>
+        </svg>
+      </a>
+
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="advertise.html" class="nav-link px-2 text-body-secondary">Advertise</a></li>
+        <li class="nav-item"><a href="reviews.html" class="nav-link px-2 text-body-secondary">Reviews</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link px-2 text-body-secondary">About</a></li>
+        <li class="nav-item"><a href="copyright.html" class="nav-link px-2 text-body-secondary">Copyright</a></li>
+      </ul>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>
